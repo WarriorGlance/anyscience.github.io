@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-image: url(science.jpg);
+    
+}
+
+.logo{
+    color: white;
+    font-size: 40px;
+    margin-left: 130px;
+    position: absolute;
+    top: 20px;
+}
+
+
+
+.image{
+    height: 80px;
+    width: 100px;
+}
+
+span{
+    font-weight: bold;
+}
+
+nav{
+    background-color: rgba(9, 5, 46, 0.726);
+    height: 80px;
+    width: 100%;
+
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    padding:30px;
+    margin-right: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+}
+
+a.active,a:hover{
+    background-color: rgba(27, 49, 122, 0.801);
+    border-radius: 5px;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.801);
+    height: 690px;
+    width: 1347px;
+}
+
+.heading{
+    color: white;
+    margin-left: 550px;
+    font-size: 50px;
+    
+}
+
+#line{
+    color: rgb(240, 240, 175);
+    height: 10px;
+    background-image: linear-gradient(to right,
+                                      rgb(29, 23, 121),
+                                      rgb(45, 21, 112),
+                                      rgb(63, 25, 112),
+                                      rgb(79, 15, 116));
+
+}
+
+.content{
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+#listintro{
+    font-size: 30px;
+}
+
+#list{
+    margin-left: 40px;
+    color: goldenrod;
+}
